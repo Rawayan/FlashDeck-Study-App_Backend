@@ -1,0 +1,13 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "mcp": {
+    "vercel": {
+      "type": "local",
+      "command": ["npx", "-y", "@vineethnkrishnan/vercel-mcp"],
+      "environment": {
+        "VERCEL_TOKEN": "${VERCEL_TOKEN}"
+      },
+      "enabled": true
+    }
+  }
+}
